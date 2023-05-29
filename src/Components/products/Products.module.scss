@@ -1,0 +1,218 @@
+.proContainer1{
+  max-width: 100%;
+  background-color: #919aa1;
+  margin-top: 1em;
+  margin-right: 2px;
+  margin-right: 2px;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 1em 2em 2.9em rgba(117, 225, 149, 0.08);
+  
+
+
+  .descriptionText{
+    
+    font-weight: 100 bold;
+    border-radius: 5px;
+
+  }
+   
+
+    .text{
+      
+        color: lightgrey;
+        
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .containerProductsCard{
+       text-align: center;
+       
+        
+    }
+    img{
+      width: 100%;
+      object-fit: contain;
+      height: 27em;
+      cursor: pointer;
+      
+     }
+     .price{
+      display: flex;
+      justify-content: center;
+
+      margin-bottom: 10px;
+     }
+
+    .CartAddButton{
+        background-color: rgb(32, 132, 32);
+        border: none;
+        margin-top: 20px;
+     position:relative;
+        color: rgb(217, 217, 119);
+        padding: 1rem;
+        width: 100%;
+        transition: all 1s;
+        &:hover {
+          background-color: white;
+          color: black;
+          cursor: pointer;
+          border: 1px solid rgb(230, 230, 27);
+        }
+    }
+     
+
+
+}
+
+/* ProductModal */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: #c6c2c2;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.closeButton {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.productImage {
+  width: 200px;
+  height:300px;
+//  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.productTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 19px;
+  padding-left: 209px;
+  position:absolute;
+}
+.color{
+  margin-top: 95px;
+  padding-left: 205px;
+  position:absolute;
+ 
+}
+  
+  .btnStyle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 90%;
+    margin-left: 1rem;
+    outline: none;
+   opacity: 1.5;
+    cursor: pointer;
+  
+  
+  }
+
+
+.active {
+  opacity: 1;
+
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 55px;
+  padding-left: 208px;
+  position:absolute;
+}
+
+.productDescription {
+  font-size: 16px;
+ // margin-bottom: 20px;
+  margin-top: -95px;
+  padding-left: 200px;
+
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding-left: 208px;
+  margin-top: 35px;
+}
+
+.CartAddButton {
+  background-color: rgb(32, 132, 32);
+  border: none;
+  color: rgb(217, 217, 119);
+  padding: 1rem;
+  width: 100%;
+  
+  max-width: 200px;
+ 
+  &:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid rgb(230, 230, 27);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .modalContent {
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+  }
+  .productPrice{
+    margin-top: 75px;
+  }
+  .color{
+    margin-top: 105px;
+   width: 20px;
+    
+    
+    
+  }
+  .productTitle {
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  .modalContent {
+    width: 70%;
+    height: auto;
+    max-height: 80%;
+  }
+}

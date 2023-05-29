@@ -1,0 +1,38 @@
+.text{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.items{
+  display: flex;
+  gap: 14px;
+  grid-template-columns: repeat(12, 1fr); 
+  justify-content: center;
+
+
+  .itemCategory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(116, 114, 114);
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    gap: 1rem;
+    margin-bottom: 80px;
+
+    &:hover {
+      background-color: rgb(135, 163, 108);
+      color: black;
+      cursor: pointer;
+      
+    }
+   
+  }
+
+  h4{
+    margin-top: 7px;
+  }
+}

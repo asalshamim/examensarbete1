@@ -1,0 +1,147 @@
+.proContainer {
+  width: 80%;
+ 
+  margin: 2% auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #343a40;
+  align-items: center;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+ 
+  
+
+
+
+
+.proContainer1 {
+  height: 90%;
+  width: 100%;
+
+  margin-left: 35px;
+
+  
+  
+}
+
+.containerProductsCard {
+ 
+
+  
+  &:hover {
+    box-shadow: 0 0 20px rgba(126, 123, 123, 0.5);
+  }
+}
+
+img {
+  width: 50%;
+  margin-left: 25px;
+  height: 70%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.price {
+
+  margin-left: 25px;
+
+  color: #fff;
+  
+  margin-top: -22px;
+  margin-bottom: 20px;
+}
+
+.descriptionText {
+ 
+  margin: 45px auto;
+  color: #fff;
+  font-size: 12px;
+ margin-top: 2px;
+ margin-left: 20px;
+
+
+
+}
+
+}
+  .searchContainer{
+    margin: 1em 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+  .searchContainer input:focus {
+    border-bottom-color: #5ddc8d;
+  }
+  .searchInput{
+    background-color: transparent;
+    width: 20%;
+    border-bottom: 2px solid #5d5c60;
+    padding: 1em 0.3em;
+    border-right: hidden;
+    border-top: hidden;
+    border-left: hidden;
+    color: #817e7e;
+
+  }
+
+  .search{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: rgb(32, 132, 32);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+    
+
+
+  }
+ 
+ 
+
+  }
+
+  .containerBtn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+  .buttonValue{
+    border: 2px solid rgb(32, 132, 32);
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: rgb(66, 66, 49);
+    cursor: pointer;
+   margin: 4px;
+   &:hover {
+    background-color: rgb(54, 83, 62);;
+    color: rgb(214, 244, 149);
+    cursor: pointer;
+    
+  }
+  }
+
+  }
+  @media (max-width: 768px) {
+    .proContainer {
+      width: 100%;
+      
+      
+    }
+    
+    .proContainer1 {
+      height: 95%;
+      width: 100%;
+     
+      margin-left: 20px;
+      
+
+      
+    }
+
+  }
+
+  
