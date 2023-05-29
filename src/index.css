@@ -193,6 +193,27 @@ p {
 }
 
 
+.--btn-lg {
+  padding: 8px 10px;
+}
+
+.--btn-block {
+  width: 100%;
+}
+
+.--btn-primary {
+  color: #fff;
+  background: #2e7744;
+}
+.--btn-secondary {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.--btn-danger {
+  color: #131313;
+  background: rgb(227, 226, 225);
+}
 
 /* Margin */
 .--m {
