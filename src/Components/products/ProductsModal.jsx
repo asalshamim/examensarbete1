@@ -25,7 +25,7 @@ const ProductModal = ({ product, closeModal, addToCart }) => {
             Colors: 
             {colors.map((curColor, index) => {
               return (
-                <button key={index} style={{ backgroundColor: curColor }} className={color === curColor ? 'btnStyle active' : 'btnStyle'}
+                <button key={index} style={{ backgroundColor: curColor }} className={color ===! curColor ? 'btnStyle active' : 'btnStyle'}
                 onClick={()=> setColor(curColor)}
                 > 
             
